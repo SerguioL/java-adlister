@@ -47,5 +47,7 @@
     </c:forEach>
 </table>
 
+<%@include file="partials/display-extra-person.jsp"%>
+
 </body>
 </html>
