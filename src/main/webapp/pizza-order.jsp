@@ -39,6 +39,8 @@
     <input type="checkbox" name="toppings" value="Extra Cheese">Extra cheese
     <input type="checkbox" name="toppings" value="Mushroom">Mushroom
 
+    <p>Address</p>
+    <input type="text" name="address" placeholder="Enter Address">
 
     <button type="submit">submit</button>
 </form>

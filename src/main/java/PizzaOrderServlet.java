@@ -18,9 +18,11 @@ public class PizzaOrderServlet extends HttpServlet {
         String sauce = request.getParameter("pizza-sauce");
         String size = request.getParameter("pizza-size");
         String[] toppings = request.getParameterValues("toppings");
+        String address = request.getParameter("address");
         System.out.println(crust);
         System.out.println(sauce);
         System.out.println(size);
         System.out.println(Arrays.toString(toppings));
+        System.out.println(address);
     }
 }
